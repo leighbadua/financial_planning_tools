@@ -46,9 +46,11 @@ pip list | grep -E "python-dotenv|alpaca-trade-api"
 To run this project, you would need **API Keys**, more specifically **Alpaca API and Secret Keys**. These are unique identifiers needed for authentication for trading. To get your API credentials, you can go to [Alpaca Markets sign-up page](https://app.alpaca.markets/signup) and set-up or login to generate your keys. 
 
 Once logged in, click on "Go to Paper Account" on the left hand panel:
+
 <img width="702" alt="image" src="https://user-images.githubusercontent.com/96001018/152703809-76a7dafe-954b-4636-86ea-d5e2f9846f09.png">
 
 Click on the right hand panel to view your key or generate new keys. You will need both API Keys and Secret Keys for this project. 
+
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/96001018/152703866-56f18590-4676-4703-b19f-4a2e76bdc395.png">
 
 ---
@@ -70,6 +72,7 @@ URLs for the API calls to Free Crypto API in order to get current pricing inform
 <img width="590" alt="image" src="https://user-images.githubusercontent.com/96001018/152705481-7faf655a-626a-475e-a529-a5f3987d9e78.png">
 
 Example of making an API call to access the current price of BTC by using the Python requests library. Performed the same request for ETH.
+
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/96001018/152705185-c2462399-e374-4377-aa5d-e00a621ac425.png">
 
 Calculate the value of the current amount of each cryptocurrency and of the entire cryptocurrency wallet.
