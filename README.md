@@ -61,7 +61,9 @@ Import the required libraries and dependencies:
 ### Create a Financial Planner for Emergencies
 
 **Evaluate the Cryptocurrency Wallet by Using Requests Library**
+
 Determined the current value of the credit union member's cryptocurrency wallet, consist of Bitcoin (BTC) and Ethereum (ETH) cryptocurrencies by using the Python Requests library. 
+
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/96001018/152704988-e12d599e-8adc-4130-ac7b-13547e28a3a8.png">
 
 URLs for the API calls to Free Crypto API in order to get current pricing information on member's crytpocurrencies.
@@ -74,17 +76,31 @@ Calculate the value of the current amount of each cryptocurrency and of the enti
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/96001018/152705022-cf1bf277-8319-49d1-be80-620a0614cb6b.png">
 
 **Evaluate the Stock and Bond Holdings by Using the Alpaca SDK**
+
 Make an API call via Alpaca SDK to get the current closing prices of the SPDR S&P 500 ETF Trust (ticker:SPY) and iShares Core US Aggregate Bond ETF (AGG). 
 
 Using an environment file (```.env```) to store values of user's Alpaca API key and secret key. 
 <img width="428" alt="image" src="https://user-images.githubusercontent.com/96001018/152705829-1dcf1ecc-37a3-4e80-b763-436677499f10.png">
 
+Get the current closing prices for Stock and Bond holdings, SPY and AGG.
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/96001018/152706758-99548892-667a-424b-a363-e4a9abb6c2ef.png">
 
 
-Determined the composition of the member's portfolio and created a pit chart visualization. 
+Determined the composition of the member's portfolio and created a pie chart visualization. 
 
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/96001018/152705922-2f2dd5b1-89e5-4f75-9c04-1fe7f74c8340.png">
 
+Calculated member's savings portfolio and evaluate the possibility of creating an emergency fund. 
+
+<img width="543" alt="image" src="https://user-images.githubusercontent.com/96001018/152706725-9729d0a4-72a4-4161-a5ec-d45b3c3fdafe.png">
+
+<img width="532" alt="image" src="https://user-images.githubusercontent.com/96001018/152707005-5a722796-c933-4c1b-84db-cf5b9ee20b5b.png">
+
+
+### Create a Financial Planner for Retirement
+
+
+**Create the Monte Carlo Simulation**
 
 Using Monte Carlo simulation to forecast 30 year simulation of a 60/40 stock and bond portfolio. Visualizations were created to plot 500 simulations of cumulative returns trajectories over the 30 years (or 2520 trading days) and a histogram shows the shows the distribution of cumuluative returns across 500 simulations. 
 
@@ -93,6 +109,9 @@ Using Monte Carlo simulation to forecast 30 year simulation of a 60/40 stock and
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/96001018/152705957-4aea4484-4bfa-4529-a9a0-5e2a7cb4ae67.png">
 
 <img width="278" alt="image" src="https://user-images.githubusercontent.com/96001018/152705966-f63b4310-dd7d-4cd9-b8a5-f43bfb69e537.png">
+
+<img width="308" alt="image" src="https://user-images.githubusercontent.com/96001018/152706946-b0d5ced7-14fc-46d7-a3f1-fe0f4b23e79a.png">
+
 
 
 Similar to the process of the 30 year simulation, performed a 10 year simulation of a 80/20 portfolio with a more heavily weighted stock option.
